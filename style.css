@@ -134,6 +134,10 @@ body {
   color: #FFF;
   font-family: Red Hat Text;
 }
+
+.button:active {
+  box-shadow: none;
+}
 .button-login {
   position: relative;
   left: 60px;
