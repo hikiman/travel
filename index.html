@@ -7,31 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <img src="/assets/icon/logo.svg" alt="logo">
+    <div class="container">
+        <header class="header">
+            <div class="header-container">
+                <div class="logo">
+                    <a href="/#" class="logo-link">
+                        <img class="logo-svg" href="/#" src="/assets/icon/logo.svg" alt="logo">Travel Portal
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
+                        <li class="nav-item"><a href="#steps" class="nav-link">Plan Your Trip</a></li>
+                        <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+                        <li class="nav-item"><a href="#stories" class="nav-link">Travel Stories</a></li>
+                    </ul>
+                </nav>
+                <button class="button button-login">Login</button>
             </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
-                    <li class="nav-item"><a href="#steps" class="nav-link">Plan Your Trip</a></li>
-                    <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
-                    <li class="nav-item"><a href="#stories" class="nav-link">Travel Stories</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
-        <div class="container main-container">
             <section class="section section-preview" id="preview"></section>
-            <section class="section section-steps" id="steps"></section>
-            <section class="section section-destinations" id="destinations"></section>
-            <section class="section section-stories" id="stories"></section>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container footer-container"></div>
-    </footer>
+        </header>
+        <main class="main">
+            <div class="main-container">
+                <section class="section section-steps" id="steps"></section>
+                <section class="section section-destinations" id="destinations"></section>
+                <section class="section section-stories" id="stories"></section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer-container"></div>
+        </footer>
+    </div>
 </body>
 </html>
