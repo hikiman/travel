@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="wrapper">
         <header class="header">
-            <div class="header-container">
-                <div class="logo">
-                    <a href="/#" class="logo-link">
-                        <img class="logo-svg" href="/#" src="/assets/icon/logo.svg" alt="logo">Travel Portal
-                    </a>
-                </div>
+            <div class="container header-container">
+                <a href="/#" class="logo-link">
+                    <img class="logo-svg" href="/#" src="/assets/icon/logo.svg" alt="logo">Travel Portal
+                </a>
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
@@ -25,10 +23,19 @@
                 </nav>
                 <button class="button button-login">Login</button>
             </div>
-            <section class="section section-preview" id="preview"></section>
+            <section class="section section-preview" id="preview">
+                <div class="container-preview">
+                    <h1 class="title">Explore the beauty of the World</h1>
+                    <p class="sub-title">Receive personalized recommendations for countries, hotels, activates and more</p>
+                </div>
+                
+                <form action="" class="plan">
+                    input
+                </form>
+            </section>
         </header>
         <main class="main">
-            <div class="main-container">
+            <div class="container main-container">
                 <section class="section section-steps" id="steps"></section>
                 <section class="section section-destinations" id="destinations"></section>
                 <section class="section section-stories" id="stories"></section>

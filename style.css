@@ -58,17 +58,19 @@ body {
   min-height: 100vh;
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   min-height: 100vh;
   font-family: Red Hat Text;
 }
+.container {
+  max-width: 1440px;
+}
 /* Header Styling */
 .header {
   width: 1440px;
-  max-width: 1440px;
   background: url(assets/img/higher-background.jpg), lightgray -136px -141.277px / 112.222% 160.816% no-repeat;
   background-size: cover;
 }
@@ -126,7 +128,11 @@ body {
   text-decoration: none;
 }
 
-.button { /*General button properties */
+.logo-link:active, .nav-link:active, .button:active { /* Activated links and buttons style */
+  opacity: .75;
+}
+
+.button { /* General button properties */
   border: none;
   border-radius: 10px;
   background: #0D606F;
@@ -135,9 +141,6 @@ body {
   font-family: Red Hat Text;
 }
 
-.button:active {
-  box-shadow: none;
-}
 .button-login {
   position: relative;
   left: 60px;
@@ -151,5 +154,26 @@ body {
 }
 
 .section-preview {
+  display: flex;
+  flex-flow:column wrap;
   height: 675px;
+
+}
+.container-preview {
+  width: 892px;
+  height: 422px;
+}
+
+.title {
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.sub-title {
+  color: #FFF;
+  font-family: Aleo;
 }
