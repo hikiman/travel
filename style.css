@@ -65,8 +65,13 @@ body {
   min-height: 100vh;
   font-family: Red Hat Text;
 }
+
 .container {
   max-width: 1440px;
+}
+
+.section {
+  width: 1440px;
 }
 /* Header Styling */
 .header {
@@ -239,5 +244,57 @@ body {
   font-weight: 500;
   line-height: normal;
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+}
 
+/* Styling main sections */
+
+.section-steps {
+  height: 424px;
+  background-color: #FFF;
+}
+
+.steps-container {
+  position: relative;
+  left: 131px;
+  width: 1177px;
+  height: 247px;
+}
+
+.title-section {
+  margin: 80px auto 40px;
+  color: #F2785C;
+  text-align: center;
+  font-family: Red Hat Text;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.steps-block {
+  display: flex;
+}
+
+.step-img {
+  margin: 0 296px 30px 73px;
+}
+
+.airplane-img {
+  position:relative;
+  right: 40px;
+}
+
+.step-text {
+  margin: 0;
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.airplane-text {
+  position: relative;
+  right: 80px;
 }
