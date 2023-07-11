@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flickity.css">
 </head>
 <body>
     <div class="wrapper">
@@ -60,18 +61,13 @@
                 <section class="section section-destinations" id="destinations">
                     <div class="destinations-container">
                         <h2 class="title-section">POPULAR DESTINATIONS</h2>
-                        <div class="carousel">
-                            <ul class="carousel-list">
-                                <li class="carousel-item">
-                                    <img src="/assets/img/destination-spain.jpg" alt="Spain" class="spain-destination">
-                                    <img src="/assets/img/destination-japan.jpg" alt="Japan" class="japan-destination">
-                                    <img src="/assets/img/destination-usa.jpg" alt="USA" class="usa-destination">
-                                </li>
-                                <li class="carousel-item"></li>
-                                <li class="carousel-item"></li>
-                            </ul>
+                        <div class="carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "initialIndex": 1 }'>
+                            <div class="carousel-item"><p class="name-destination">Spain</p><img src="/assets/img/destination-spain.jpg" alt="Spain" class="carousel-img"></div>
+                            <div class="carousel-item"><p class="name-destination">Japan</p><img src="/assets/img/destination-japan.jpg" alt="Japan" class="carousel-img"></div>                         
+                            <div class="carousel-item"><p class="name-destination">USA</p><img src="/assets/img/destination-usa.jpg" alt="USA" class="carousel-img"></div>
                         </div>
                     </div>
+                    <button class="button button-end-section">Find More</button>
                 </section>
                 <section class="section section-stories" id="stories"></section>
             </div>
@@ -80,5 +76,6 @@
             <div class="container footer-container"></div>
         </footer>
     </div>
+    <script src="./js/flickity.pkgd.min.js"></script>
 </body>
 </html>

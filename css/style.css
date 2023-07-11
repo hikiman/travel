@@ -63,7 +63,6 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  min-height: 100vh;
   font-family: Red Hat Text;
 }
 
@@ -72,12 +71,12 @@ body {
 }
 
 .section {
-  width: 1440px;
+  max-width: 1440px;
 }
 /* Header Styling */
 .header {
   width: 1440px;
-  background: url(assets/img/higher-background.jpg), lightgray -136px -141.277px / 112.222% 160.816% no-repeat;
+  background: url(../assets/img/higher-background.jpg), lightgray -136px -141.277px / 112.222% 160.816% no-repeat;
   background-size: cover;
 }
 
@@ -249,6 +248,9 @@ body {
 
 /* Styling main sections */
 
+.main {
+  width:1440px;
+}
 .section-steps {
   height: 424px;
   background-color: #FFF;
@@ -305,13 +307,36 @@ body {
   height: 1042px;
 }
 
+.destinations-container .title-section {
+  margin-bottom: 0;
+}
+
 .carousel {
   height: 800px;
 }
 
-.carousel-list {
-  display: flex;
-  flex-flow:row wrap;
+.carousel-item {
+  margin-left:0;
 }
+.carousel-img {
+  margin-right: 60px;
+}
+
+.name-destination {
+  position: relative;
+  top: 758px;
+  left: 15px;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
 
 
