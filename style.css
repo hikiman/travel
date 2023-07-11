@@ -56,6 +56,7 @@ body {
   padding: 0;
   border: 0;
   min-height: 100vh;
+  /*background-color: black; */
 }
 
 .wrapper {
@@ -256,12 +257,13 @@ body {
 .steps-container {
   position: relative;
   left: 131px;
+  top: 80px;
   width: 1177px;
   height: 247px;
 }
 
 .title-section {
-  margin: 80px auto 40px;
+  margin: 0 auto 40px;
   color: #F2785C;
   text-align: center;
   font-family: Red Hat Text;
@@ -298,3 +300,18 @@ body {
   position: relative;
   right: 80px;
 }
+
+.section-destinations {
+  height: 1042px;
+}
+
+.carousel {
+  height: 800px;
+}
+
+.carousel-list {
+  display: flex;
+  flex-flow:row wrap;
+}
+
+
