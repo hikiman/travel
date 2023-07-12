@@ -415,6 +415,48 @@ body {
   color: #0D606F;
 }
 
+.section-stories .button-end-section {
+  position: relative;
+  top: 40px;
+}
+
+.true-footer {
+  display: flex;
+  align-items: center;
+  height: 61px;
+}
+
+.empty-block {
+  width: 590px;
+  height: 61px;
+}
+
+.rights-footer {
+  width: 260px;
+  margin-right: 328px;
+}
+.rights-text {
+  width: 260px;
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.social-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 141px;
+  height: 34px; 
+}
+
+.social-item {
+  margin-right: 20px;
+}
+
 
 
 
