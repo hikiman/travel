@@ -56,7 +56,6 @@ body {
   padding: 0;
   border: 0;
   min-height: 100vh;
-  /*background-color: black; */
 }
 
 .wrapper {
@@ -70,10 +69,8 @@ body {
   max-width: 1440px;
 }
 
-.section {
-  max-width: 1440px;
-}
 /* Header Styling */
+
 .header {
   width: 1440px;
   background: url(../assets/img/higher-background.jpg), lightgray -136px -141.277px / 112.222% 160.816% no-repeat;
@@ -304,7 +301,11 @@ body {
 }
 
 .section-destinations {
-  height: 1042px;
+  height: 1029px;
+}
+
+.destinations-container {
+  height: 930px;
 }
 
 .destinations-container .title-section {
@@ -318,6 +319,7 @@ body {
 .carousel-item {
   margin-left:0;
 }
+
 .carousel-img {
   margin-right: 60px;
 }
@@ -335,6 +337,43 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+
+.button-end-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 0;
+  width: 228px;
+  height: 59px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.arrow-img {
+  margin-right: 10px;
+}
+
+/* Footer + last section styling */
+
+.footer .title-section {
+  margin-top: 80px;
+}
+
+.section-container {
+  width: 1440px;
+  height: 1331px;
+  background: url(../assets/img/lower-background.jpg),lightgray 0px -619.46px / 100% 162.428% no-repeat;
+  background-size: cover;
+}
+
+.section-stories {
+  height: 1270px;
+  background-color: rgba(255, 255, 255, 0.70);
+}
+
+
 
 
 
