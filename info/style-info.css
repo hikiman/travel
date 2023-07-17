@@ -176,12 +176,18 @@ body {
     box-shadow: 0px 4px 4px 0px #0D606F;
   }
 
-
-  
   .story-paragraph {
     width: 760px;
     font-size: 20px;
     margin: 0 auto 20px;
+  }
+
+  .section-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+
   }
   
   .footer-container {
