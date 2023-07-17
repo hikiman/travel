@@ -132,32 +132,34 @@
     <div class="popup">
         <div class="popup-container">
             <div class="popup-form">
-                <form action="./info/info.html" class="login-form">
-                    <h2 class="title-login">Log in to your account</h2>
-                    <button class="button signin-button facebook-button">
+                <h2 class="title-login">Log in to your account</h2>
+                    <form action="https://facebook.com/" class="facebook-login"><button class="button signin-button facebook-button">
                         <img src="./assets/icon/Facebook Logo.svg" alt="facebook logo">Sign In with Facebook
-                    </button>
-                    <button class="button signin-button google-button">
-                        <img src="./assets/icon/Google Logo.svg" alt="google logo" >Sign In with Google
-                    </button>
+                    </button></form>
+                    <form action="https://google.com/" class="google-form">
+                        <button class="button signin-button google-button">
+                            <img src="./assets/icon/Google Logo.svg" alt="google logo" >Sign In with Google
+                        </button>
                     <div class="lines-block">
                         <div class="line"></div>
                         <p class="line-text">or</p>
                         <div class="line"></div>
                     </div>
                     <div class="input-block">
-                        <fieldset class="input-fieldset">
-                            <label for="email" class="email-label">E-mail<br>
-                                <input type="email" id="email" class="input-login">
-                            </label>
-                            <label for="password" class="password-label">Password<br>
-                                <input type="password" id="" class="input-login">
-                            </label>
-                            <button type="submit" class="button signin-button button-submit">Sign In</button>
-                            <div class="forgot-pass-block">
-                                <a href="/info/info.html" class="forgot-pass-link">Forgot Your Password?</a>
-                            </div>
-                        </fieldset>  
+                        <form action="" class="login-form">
+                            <fieldset class="input-fieldset">
+                                <label for="email" class="email-label">E-mail<br>
+                                    <input type="email" id="email" class="input-login">
+                                </label>
+                                <label for="password" class="password-label">Password<br>
+                                    <input type="password" id="" class="input-login">
+                                </label>
+                                <button type="submit" class="button signin-button button-submit">Sign In</button>
+                                <div class="forgot-pass-block">
+                                    <a href="/info/info.html" class="forgot-pass-link">Forgot Your Password?</a>
+                                </div>
+                            </fieldset>  
+                        </form>
                     </div>
                     <div class="line solid-line"></div>
                     <div class="register-block">
