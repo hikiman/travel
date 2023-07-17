@@ -1,0 +1,225 @@
+/* aleo-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/aleo-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* aleo-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../assets/fonts/aleo-v12-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* aleo-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/aleo-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* aleo-700italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../assets/fonts/aleo-v12-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* red-hat-text-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/red-hat-text-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* magra-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/magra-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* Basic Styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1440px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgba(242, 120, 92);
+    box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.50);
+    color: #ffffff;
+  }
+  .logo-link {
+    position: relative;
+    bottom: 5px;
+    right: 60px;
+    display: flex;
+    width: 216px;
+    height: 31px;
+    color: #FFF;
+    font-family: Magra;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .logo-svg {
+    margin-right: 6px;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    margin-right: 62px;
+  }
+  
+  .nav-link {
+    color:#FFF;
+    font-family: Red Hat Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .logo-link:active, .nav-link:active, .button:active { /* Activated links and buttons style */
+    opacity: .75;
+  }
+
+  .title-section {
+    margin: 2px auto 20px;
+    padding-top: 20px;
+    color: #0D606F;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .main-container {
+    width: 1440px;
+    border:20px double rgba(242, 120, 92);
+  }
+  
+  .section-stories {
+    background-color: rgba(255, 255, 255, 0.70);
+  }
+  
+  .story-block {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 125px 30px 120px;
+    border: 15px double #0D606F;
+    width: 1200px;
+  }
+  
+  .story-text {
+    margin: 20px auto 10px;
+    color: #0D606F;
+    font-family: Aleo;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+  }
+  
+  .story-title {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .story-img {
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px #0D606F;
+  }
+
+
+  
+  .story-paragraph {
+    width: 760px;
+    font-size: 20px;
+    margin: 0 auto 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 61px;
+    background: url(../assets/img/lower-background.jpg),lightgray 0px -619.46px / 100% 162.428% no-repeat;
+    background-size: cover;
+  }
+  
+  .empty-block {
+    width: 560px;
+    height: 61px;
+  }
+  
+  .rights-footer {
+    width: 320px;
+    margin-right: 268px;
+  }
+  .rights-text {
+    width: 320px;
+    color: #FFF;
+    font-family: Red Hat Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .social-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 141px;
+    height: 34px; 
+  }
+  
+  .social-item {
+    margin-right: 20px;
+  }
