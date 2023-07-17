@@ -85,7 +85,7 @@ body {
   .logo-link {
     position: relative;
     bottom: 5px;
-    right: 60px;
+    right: 30px;
     display: flex;
     width: 216px;
     height: 31px;
@@ -141,6 +141,17 @@ body {
     border:20px double rgba(242, 120, 92);
   }
   
+  .carousel-section {
+    height: 1050px;
+  }
+
+  .carousel {
+    height: 800px;
+  }
+
+  .carousel-img {
+    margin-right: 50px;
+  }
   .section-stories {
     background-color: rgba(255, 255, 255, 0.70);
   }
