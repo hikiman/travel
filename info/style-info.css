@@ -149,7 +149,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    margin: 0 125px 30px 120px;
+    margin: 0 100px 30px 100px;
     border: 15px double #0D606F;
     width: 1200px;
   }
@@ -187,7 +187,16 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 1200px;
+  }
 
+  .video-block {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .video {
+    border: 10px solid rgba(242, 120, 92); 
   }
   
   .footer-container {
